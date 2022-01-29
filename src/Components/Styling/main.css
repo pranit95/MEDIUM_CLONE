@@ -1,0 +1,203 @@
+.nav {
+  display: flex;
+  align-items: center;
+  top: 0;
+  left: 0;
+  margin: 2% 5%;
+}
+
+.nav > div > img {
+  margin: 1% 1% 1% 0%;
+  width: 30%;
+  height: 50px;
+}
+
+.signin {
+  text-align: center;
+  margin: 70px auto;
+  padding: 10px;
+  width: 600px;
+  height: 550px;
+  border: 1px solid grey;
+  border-radius: 8px;
+}
+
+.icon {
+  margin: 1% 0% 0% 90%;
+  font-size: larger;
+  color: black;
+  
+}
+
+.upgrade {
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  width: 90px;
+  height: 35px;
+  text-align: center;
+  font-size: 15px;
+  margin: auto 5px;
+  border: none;
+}
+
+.sec {
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  /* margin-left: 10%; */
+}
+
+.searchIcon {
+  font-size: 20px;
+  margin: 0 10px;
+  color: gray;
+}
+
+.ico {
+  font-size: 25px;
+  margin: 0 10px;
+  color: gray;
+}
+
+.sec :hover {
+  cursor: pointer;
+}
+
+.sec input {
+  border: none;
+  height: 30px;
+  padding: 0 10px;
+  width: 100px;
+  outline: none;
+  cursor: text;
+  font-size: 20px;
+}
+::placeholder {
+  color: gray;
+  font-weight: 300;
+  font-size: 15px;
+}
+.card {
+  width: 400px;
+  height: 400px;
+  margin: 20px 50px;
+}
+
+.card img {
+  width: 300px;
+  height: 250px;
+}
+
+.card h4 {
+  color: grey;
+}
+
+.med {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.med > img {
+  max-width: 22%;
+  height: 3%;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  /* margin: 10px 150px; */
+}
+
+.twitbtn {
+  background-color: white;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 15px;
+  border: 0.5px solid grey;
+  display: flex;
+  margin: 20px auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.twitbtn p {
+  margin-top: 10px;
+}
+.twitter {
+  text-align: center;
+  margin: 10% 0% 0% 4%;
+  align-items: center;
+}
+
+.second {
+  width: 370px;
+  height: 140px;
+  display: flex;
+  padding: 5px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.second img {
+  width: 100px;
+  height: 70px;
+}
+
+.avatar > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.avatar {
+  width: 150px;
+  margin-bottom: 0px;
+}
+
+.first {
+  margin: 1% 0% 0% 1%;
+}
+
+.first img {
+  width: 350px;
+  height: 300px;
+}
+
+.searchcards {
+  margin: 5% 5% 2% 8%;
+}
+
+.signin {
+  text-align: center;
+  height: 1500px;
+  width: 100%;
+  /* border: 1px solid grey; */
+  /* box-shadow: 0 0 10px gray; */
+  background-image: url(https://cdn.hipwallpaper.com/i/62/26/HKoPzd.jpg);
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* top: 0; */
+  /* position: absolute; */
+  margin-top: -50px;
+}
+
+.form {
+  width: 40%;
+  padding: 50px;
+  box-shadow: -5px -5px 10px rgb(42, 39, 92), 5px 5px 10px rgb(21, 19, 49);
+  border-radius: 8px;
+  opacity: 0.9;
+  text-align: center;
+  margin: 120px auto;
+  padding: 10px;
+  width: 600px;
+  height: 550px;
+  border: 1px solid grey;
+  border-radius: 8px;
+  background: rgb(228, 220, 220);
+}
